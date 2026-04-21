@@ -16,7 +16,7 @@ export default function Motto() {
                     OUR MOTTO
                 </h2>
 
-                <div className="relative mt-10 rounded-2xl overflow-hidden text-5xl font-semibold leading-14">
+                <div className="relative mt-10">
                     <ScrollVisibleText />
                 </div>
 

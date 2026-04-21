@@ -54,7 +54,7 @@ export default function ScrollRevealText({
         <section className="relative">
             <div
                 ref={ref}
-                className="text-5xl font-semibold leading-[1.2] flex flex-wrap gap-3"
+                className="text-2xl md:text-5xl font-semibold md:leading-[1.2] flex flex-wrap gap-3"
             >
                 {words.map((word, i) => (
                     <Word

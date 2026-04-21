@@ -1,5 +1,4 @@
 import { Geist_Mono, IBM_Plex_Sans, Manrope } from "next/font/google"
-import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils";
 import "./globals.css"
 import Navbar from "@/components/layout/navbar";
@@ -38,7 +37,7 @@ export default function RootLayout({
           </FadeDown>
           {children}
           <Footer />
-        {/* </ThemeProvider>npm */}
+        {/* </ThemeProvider> */}
       </body>
     </html>
   )
