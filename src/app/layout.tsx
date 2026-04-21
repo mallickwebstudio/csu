@@ -30,7 +30,7 @@ export default function RootLayout({
       className={cn("antialiased", fontMono.variable, "font-sans", manrope.variable, ibmPlexSansHeading.variable)}
     >
       <body className="relative">
-        <ThemeProvider>
+        {/* <ThemeProvider> */}
           <FadeDown delay={0.9} duration={0.3}>
             <Navbar
               className="px-4 md:px-0 absolute top-4 md:top-7 lg:top-12 left-0 z-50 w-full bg-transparent border-none"
@@ -38,7 +38,7 @@ export default function RootLayout({
           </FadeDown>
           {children}
           <Footer />
-        </ThemeProvider>
+        {/* </ThemeProvider>npm */}
       </body>
     </html>
   )
